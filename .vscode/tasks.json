@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Excel Reader",
+			"type": "shell",
+			"command": "/Users/xuan/.pyenv/versions/3.10.12/bin/python",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"excel_reader.py",
+				"--server.port",
+				"8501"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
